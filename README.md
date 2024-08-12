@@ -1,20 +1,50 @@
-### _**Hangman_Task**_
-Hangman Game (Python Project)
-This project is a Python-based implementation of the classic Hangman game. The game challenges the player to guess a randomly chosen word by suggesting letters one at a time. The objective is to guess the word correctly before running out of attempts.
+### Hangman Game
 
-Key Features:
-Random Word Selection: The game selects a random word from a predefined list for each round.
-User Input Validation: Ensures that the player inputs valid alphabetic characters and handles invalid entries gracefully.
-Display of Progress: Shows the player the current state of the word, with correctly guessed letters revealed and underscores representing the remaining letters.
-Tracking of Attempts: Keeps track of the player's remaining attempts and displays the letters they have already guessed.
-Endgame Scenarios: Provides feedback at the end of the game, displaying a congratulatory message if the player wins or revealing the word if they lose.
-Technologies Used:
-Python for the core logic and game flow.
-Built-in Python libraries for random word selection and user interaction.
-How to Play:
-Run the script to start the game.
-Guess the word by entering one letter at a time.
-You have a limited number of attempts to guess the entire word correctly.
-The game will end when you either guess the word or run out of attempts.
-This project was developed as part of the CodeAlpha Internship and serves as an example of using basic Python programming concepts such as loops, conditionals, and string manipulation to create a simple yet engaging game.
+This repository contains a Python implementation of the classic Hangman game. The game allows players to guess a hidden word one letter at a time, with a limited number of incorrect guesses allowed before the game is lost. This project was developed as part of the CodeAlpha Internship and demonstrates fundamental programming concepts in Python.
 
+## Features
+
+- **Random Word Selection:** A random word is chosen from a predefined list at the start of each game.
+- **User-Friendly Input:** The game ensures that only valid alphabetic characters are accepted as input, with prompts guiding the player.
+- **Visual Progress Display:** The current state of the word is displayed, showing correctly guessed letters and underscores for the remaining ones.
+- **Guess Tracking:** The game keeps track of the player's remaining attempts and displays the letters that have already been guessed.
+- **Endgame Scenarios:** Provides feedback at the end of the game, congratulating the player if they win or revealing the correct word if they lose.
+
+## Requirements
+
+- Python 3.x
+
+## Installation
+
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/yourusername/hangman-game.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd hangman-game
+    ```
+
+## Usage
+
+1. Run the Hangman game script:
+    ```bash
+    python hangman.py
+    ```
+2. Follow the on-screen instructions to guess the word, one letter at a time.
+3. Try to guess the word correctly before you run out of attempts.
+
+## Example Gameplay
+
+- The game selects a random word, e.g., "_ _ _ _ _".
+- The player guesses a letter, e.g., "e".
+- If the letter is in the word, it appears in the correct position(s), e.g., "_ e _ _ _".
+- The player continues guessing letters until they either guess the word or run out of attempts.
+
+## Contribution
+
+Contributions are welcome! If you have ideas for improving the game or adding new features, feel free to fork this repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
